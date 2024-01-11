@@ -1,9 +1,8 @@
 package dev.Dayo.Paystack.PaystackPaymentRepository.Impl;
 
-import dev.Dayo.Paystack.Model.Domain.AppUser;
+import dev.Dayo.Paystack.Model.Domain.PaymentPaystack;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
 @Repository
-public interface AppUserRepositoryImpl extends JpaRepository<AppUser, Long> {
+public interface PayStackPaymentRepositoryImpl extends JpaRepository<PaymentPaystack,Long > {
 }
